@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W6VSbIbRVJVh/WsSei6L11l29xbgVxdW0m2bB2/cWmHc1Hb7fCYTyKlXUBSQ7WyGwxhPjYE3c10DOo4I/hA2nQ==",
+  "dgSpecHash": "1+xuXAgpgdR+lAGRU8Gy/Z7SDn4ectG+Xp8twsjoCQMQaX53JW8zQgmObuXiclXEMHepANC92OwEDV/+U7POnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\arthu\\OneDrive\\Documentos\\Dev\\C#\\Projetos\\Teste-Novibet\\Novibet\\Novibet.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.10\\microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.10\\microsoft.entityframeworkcore.inmemory.8.0.10.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.10\\microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.10\\microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",

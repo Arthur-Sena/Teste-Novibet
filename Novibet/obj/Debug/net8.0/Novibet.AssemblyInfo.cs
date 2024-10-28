@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Novibet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3315c7da95a0945f5c4452cb1b146f5505e25845")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fafec3b295058d0d3f6cf3ccc8e48ae42ea422d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Novibet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Novibet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

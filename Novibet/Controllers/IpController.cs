@@ -9,10 +9,10 @@ namespace Novibet.Controllers
     [Route("[controller]")]
     public class IpController : ControllerBase
     {
-        private readonly IIpService _ipService;
+        private readonly IIpApplication _ipService;
         private readonly string _ipv4Pattern = @"^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)$";
 
-        public IpController(IIpService ipService)
+        public IpController(IIpApplication ipService)
         {
             _ipService = ipService;
         }

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Novibet.Application.Interfaces;
 using Novibet.Application.Services;
 using Novibet.Models;
+using Novibet.Repositories.Interface;
 using Novibet.Repositories.Interfaces;
 using Novibet.Repositories.Repositories;
 using Quartz;
@@ -21,11 +22,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IIpApplication, IpApplication>();
 builder.Services.AddScoped<IIpService, IpService>();
 builder.Services.AddScoped<IIpRepository, IpRepository>();
-builder.Services.AddScoped<IUpdateIpJobRepository, UpdateIpJobRepository>();
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<IUpdateIpJobService, UpdateIpJobService>();
 
-builder.Services.AddHttpClient<IpService>();
+builder.Services.AddHttpClient<IpApplication>();
 
 builder.Services.AddQuartz(q =>
 {
@@ -33,7 +36,7 @@ builder.Services.AddQuartz(q =>
 
     var jobKey = new JobKey("UpdateIpJobService");
 
-    q.AddJob<UpdateIpJobService>(opts => opts.WithIdentity(jobKey));
+    q.AddJob<Novibet.Application.Services.UpdateIpJobApplication>(opts => opts.WithIdentity(jobKey));
 
     q.AddTrigger(opts => opts
         .ForJob(jobKey)
